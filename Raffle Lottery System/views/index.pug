@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul  
+            img(src="static/logo.jpg", alt="", srcset="")
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Services]
+            li #[a(href='/') Class info]
+            li #[a(href='/') Contact us]
+    
+    section#introSection 
+        h1 Welcome to Delhi Dance Academy
+        div#acaMoto Any Body Can Dance
+    
+    section#missionSection 
+        h2 Our Missions
+        .card 
+            #miss1 
+                p Excellent Moves
+                .card-box  
+                     
+
+            #miss2 
+                p Graceful Posture
+            #miss3
+                p Confidence 
+    section#sponsorSection  
+        h2 Our Sponsors
+
+    footer#footerSection
+        | section for footer
+    
+    //- script 
+    //-     include ../static/index.js    
+    script(src="/static/index.js") 

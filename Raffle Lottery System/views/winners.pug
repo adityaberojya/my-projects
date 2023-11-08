@@ -1,0 +1,18 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js") 
+
+block style
+    style
+        include ../static/winnerStyle.css
+        include ../static/style.css
+
+block content  
+    h1 Our Past Winners
+    .container
+        .winner=winners[0]
+        .winner=winners[1]
+        .winner=winners[2]
+
+

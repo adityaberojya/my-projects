@@ -1,0 +1,17 @@
+extends base.pug
+block scripts
+    script(src="/static/index.js") 
+
+block style
+    style
+        include ../static/styleContact.css
+
+block content 
+    h1 Get Ticket
+    form(action= '/takeLottery', method= 'post', class= 'myForm')
+        <input type="text"class= “myInput” name="name" placeholder="Enter your name..">
+        <input type="text"class= “myInput” name="ticket" placeholder="Ticket Number">
+        <input type="text"class= “myInput” name="password" placeholder="Enter your password..">
+        
+        button.btn
+            | Submit

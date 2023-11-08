@@ -1,0 +1,18 @@
+extends base.pug
+block scripts
+    script(src="/static/index.js") 
+
+block style
+    style
+        include ../static/styleContact.css
+
+block content 
+    h1 Register
+    form(action= '/register', method= 'post', class= 'myForm')
+        <input type="text"class= “myInput” name="name" placeholder="Enter your name..">
+        <input type="phone" class= “myInput” name="phone" placeholder="Enter your phone number">
+        <input type="email" class= “myInput” name="email" placeholder="Enter your email..">
+        <input type="text" class= “myInput” name="password" placeholder="Your password">
+        <input type="text" class= “myInput” name="confirmpassword" placeholder="Confirm password">
+        button.btn
+            | Submit

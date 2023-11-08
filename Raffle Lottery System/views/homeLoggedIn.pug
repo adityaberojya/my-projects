@@ -1,0 +1,17 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js") 
+
+block style
+    style
+        include ../static/style.css
+
+block content     
+    section#introSection 
+        h1 Welcome to Delhi Dance Academy
+        div#acaMoto Any Body Can Dance
+    
+    section#missionSection
+        button.btn#participate #[a(href='/takeLottery') Participate in Lottery]
+

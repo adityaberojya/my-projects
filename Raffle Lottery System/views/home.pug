@@ -1,0 +1,33 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js") 
+
+block style
+    style
+        include ../static/style.css
+
+block content  
+    h1=name
+    .right 
+        button.btn #[a(href='/register') Register] 
+        button.btn #[a(href='/login') Login]
+    section#introSection 
+        h1 Welcome to Raffle Lottery System
+        div#acaMoto Game for the Lucky Guys
+    
+    section#missionSection 
+        h2 Activities
+        .card 
+            #miss1 
+                p Register
+                .card-box  
+                     
+
+            #miss2 
+                p Participate 
+            #miss3
+                p Win
+    section#winnerSection 
+        h2 #[a(href='/winners') Past Winners]
+

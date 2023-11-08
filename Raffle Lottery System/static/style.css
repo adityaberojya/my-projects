@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Comforter&family=Redressed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* alert */
+.alert{
+    height: 15px;
+    background-color: green;
+}
+
+
+/* NAVBAR */
+#navbar{
+    background-color: black;
+    font-family: 'Bree Serif', serif;
+}
+
+#navbar ul{
+    display: flex;
+    padding: 13px;
+}
+
+#navbar li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 8px;
+    margin: 0px 12px;
+    border-radius: 6px;
+}
+
+#navbar li a:hover{
+    background-color: white;
+    /* color: greenyellow; */
+    color: black;
+}
+
+/* logo */
+#navbar img{
+    height: 38px;
+}
+
+
+/* introSection */
+#introSection{
+    background: center / cover no-repeat url('/static/bg.jpg');
+    background-color: red;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+
+
+
+/* missionSection */
+#missionSection{
+    background-color: white;
+    height: 200px;
+}
+
+#missionSection h2{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    display: block;
+}
+
+.card{
+    display: flex;
+}
+
+#miss1, #miss2, #miss3{
+    background-color: pink;
+    height: 133px;
+    width: 30%;
+    margin: 12px 26px;
+    text-align: center;
+    padding-top: 46px;
+    font-size: 27px;
+}
+
+
+
+
+/* winnerSection */
+#winnerSection{
+    background-color: yellow;
+    height: 200px;
+    font-family: 'Redressed', cursive;
+}
+
+#winnerSection h2{
+    text-align: center;
+}
+
+.winners{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winners li{
+    padding: 8px;
+    font-size: 21px;
+}
+
+
+/* footerSection */
+#footerSection{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    height: 37px;
+}
+
+
+/* bittons */
+.right{
+    /* border: 2px solid aqua; */
+    width: 16%;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    display: inline-block;
+}
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 8px;
+    padding: 3px 13px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn a{
+    text-decoration: none;    
+}
+.btn:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+
+/* participate in Lottery button */
+#participate{
+    display: block;
+    margin: auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-top: 63px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#participate a{
+    padding: 12px 45px;
+}

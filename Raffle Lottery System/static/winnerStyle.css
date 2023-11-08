@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: 217px;
+}
+
+h1{
+    text-align: center;
+    height: 56px;
+    padding: 9px;
+    background-color: burlywood;
+}
+
+.winner{
+    font-size: 24px;
+    color: green;
+    padding: 7px;
+    margin: 7px;
+    height: 36px;
+}
